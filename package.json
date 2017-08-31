@@ -15,7 +15,7 @@
   },
   "homepage": "",
   "dependencies": {
-    "sqlite3": "^3.1.8"
+    "sqlite3": "^3.1.9"
   },
   "scripts": {
     "test": "mocha --watch --recursive -R spec"
