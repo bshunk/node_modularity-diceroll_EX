@@ -15,6 +15,7 @@
   },
   "homepage": "",
   "dependencies": {
+    "chai": "^4.1.1",
     "sqlite3": "^3.1.9"
   },
   "scripts": {
