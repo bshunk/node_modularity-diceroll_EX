@@ -1,12 +1,12 @@
-'use strict'
+'use strict';
 
-process.title = 'Dice Roll'
+process.title = 'Dice Roll';
 
-const { argv: [,, ...args] } = process
-const { count, sides } = require('./parse-args')(args)
-const { roll, toDiceNotation } = require('./dice')
+const { argv: [,, ...args] } = process;
+const { count, sides } = require('./parse-args')(args);
+const { roll, toDiceNotation } = require('./dice');
 
-const dice = toDiceNotation({count, sides})
-const total = roll(dice)
+const dice = toDiceNotation({count, sides});
+const total = roll(dice);
 
-console.log(total)
+console.log(total);
